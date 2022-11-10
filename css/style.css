@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: impact;
+}
+
+
+
+
+
+
+
+
+.bg-image {
+    background-image: url("/asset/image/muka.jpeg");
+    background-color: aquamarine;
+    background-size: cover;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text {
+    text-align: center;
+    position: absolute;
+    color:bisque;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+button {
+    color:rgb(157, 65, 0);
+    background-color:beige;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: brown;
+    color:bisque;
+}
